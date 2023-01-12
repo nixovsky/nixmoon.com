@@ -60,14 +60,15 @@
                     $last_launch = $row['last_launch'];
                     $online_status = $row['online_status'];
                     $online_status = $online_status == 1 ? '<span class="company--online">ONLINE</span>' : '';
-    
+                    $fileName = str_replace(' ', '_', str_replace(',', '', $row['name']));
+                    $fileLink = RusToLat($fileName);
                     echo '<div class="company-list__element company">
                         <img src="/img/'. str_replace(' ', '_', str_replace(',', '', str_replace('.', '', $row['name']))) .'_logo.png" alt="" class="company__img">
                         <div class="company__info">
                             <h2><a class="company__name" href="/companys/'. str_replace(' ', '_', $name) .'.html">'. $name . $online_status .'</a></h2>
                             <p>Последний запуск: <span>'.$last_launch.'</span></p>
                         </div>
-                        <a href="companys/'. str_replace(' ', '_', str_replace(',', '', $row['name'])) .'.html" class="company__button">Подробнее</a>
+                        <a href="companys/'.$fileLink.'.html" class="company__button">Подробнее</a>
                     </div>';
                 }
             }
@@ -204,8 +205,21 @@
             while ($row = mysqli_fetch_assoc($companyCosmodromeQuery)){
                 $cosmodromes .=  $row['name'] . ' | ';
             }
+            return substr_replace($cosmodromes, '', -2);
+        }
 
-            return $cosmodromes;
+        function RusToLat($source) {
+            if ($source) {
+                $rus = [
+                    'А', 'Б', 'В', 'Г', 'Д', 'Е', 'Ё', 'Ж', 'З', 'И', 'Й', 'К', 'Л', 'М', 'Н', 'О', 'П', 'Р', 'С', 'Т', 'У', 'Ф', 'Х', 'Ц', 'Ч', 'Ш', 'Щ', 'Ъ', 'Ы', 'Ь', 'Э', 'Ю', 'Я',
+                    'а', 'б', 'в', 'г', 'д', 'е', 'ё', 'ж', 'з', 'и', 'й', 'к', 'л', 'м', 'н', 'о', 'п', 'р', 'с', 'т', 'у', 'ф', 'х', 'ц', 'ч', 'ш', 'щ', 'ъ', 'ы', 'ь', 'э', 'ю', 'я'
+                ];
+                $lat = [
+                    'A', 'B', 'V', 'G', 'D', 'E', 'Yo', 'Zh', 'Z', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'R', 'S', 'T', 'U', 'F', 'H', 'C', 'Ch', 'Sh', 'Shh', '``', 'Y', '`', 'E`', 'Yu', 'Ya',
+                    'a', 'b', 'v', 'g', 'd', 'e', 'yo', 'zh', 'z', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'r', 's', 't', 'u', 'f', 'h', 'c', 'ch', 'sh', 'shh', '``', 'y', '`', 'e`', 'yu', 'ya'
+                ];
+                return str_replace($rus, $lat, $source);
+            }
         }
 
         $query = $mysqli -> query('SELECT company.id, company.name, company.description, foundation_date, country.name AS country, launches_number, successful_launches_number, failed_launches_number, last_launch, launches_per_year
@@ -230,9 +244,10 @@
             $allCurrentRockets = GetRocketsByStatus($id, 'Действующая');
             $allNotValidRockets = GetRocketsByStatus($id, 'Эксплуатация завершена');
             
-            $file_name = str_replace(' ', '_', str_replace(',', '', $row['name']));
+            $fileName = str_replace(' ', '_', str_replace(',', '', $row['name']));
+            $fileLink = RusToLat($fileName);
 
-            $fd = fopen("companys/{$file_name}.html", 'w') or die("не удалось создать файл");
+            $fd = fopen("companys/{$fileLink}.html", 'w') or die("не удалось создать файл");
             $str = '<!DOCTYPE html>
             <html lang="ru">
             <head>
