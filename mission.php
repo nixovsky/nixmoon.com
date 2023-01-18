@@ -156,165 +156,63 @@
         </section>
 
         <section class="mission-list">
-            <div class="mission-list__row">
-                <div class="mission-list__element mission">
-                    <img class="mission__img" src="img/ISS-Expedition-29.png" alt="">
-                    <div class="mission__info">
-                        <h2>ISS Expedition 29</h2>
-                        <p>Старт: <span>23 Мая 2011</span></p>
-                        <p>Компания: <a href="/companys/roscosmos.html">Росскосмос</a></p>
-                        <p>Ракета-носитель: <a href="/rockets/proton.html">Протон-М</a></p>
-                        <div class="mission__payload-links">
-                            <a href="#">Союз ТМА</a>
-                            <a href="#">Союз ТМА</a>
-                        </div>
-                        <p class="mission__status">Успешно</p>
-                    </div>
-                    <a href="missions/ISS-Expedition-29.html" class="mission__btn">Подробнее</a>
-                </div>
-                <div class="mission-list__element mission">
-                    <img class="mission__img" src="img/ISS-Expedition-29.png" alt="">
-                    <div class="mission__info">
-                        <h2>ISS Expedition 29</h2>
-                        <p>Старт: <span>23 Мая 2011</span></p>
-                        <p>Компания: <a href="/companys/roscosmos.html">Росскосмос</a></p>
-                        <p>Ракета-носитель: <a href="/rockets/proton.html">Протон-М</a></p>
-                        <div class="mission__payload-links">
-                            <a href="#">Союз ТМА</a>
-                            <a href="#">Союз ТМА</a>
-                        </div>
-                        <p class="mission__status">Провал</p>
-                    </div>
-                    <a href="missions/ISS-Expedition-29.html" class="mission__btn">Подробнее</a>
-                </div> 
-            </div>
-            <div class="mission-list__row">
-                <div class="mission-list__element mission">
-                    <img class="mission__img" src="img/ISS-Expedition-29.png" alt="">
-                    <div class="mission__info">
-                        <h2>ISS Expedition 29</h2>
-                        <p>Старт: <span>23 Мая 2011</span></p>
-                        <p>Компания: <a href="/companys/roscosmos.html">Росскосмос</a></p>
-                        <p>Ракета-носитель: <a href="/rockets/proton.html">Протон-М</a></p>
-                        <div class="mission__payload-links">
-                            <a href="#">Союз ТМА</a>
-                            <a href="#">Союз ТМА</a>
-                        </div>
-                        <p class="mission__status mission__status mission__status--successful">успешно</p>
-                    </div>
-                    <a href="missions/ISS-Expedition-29.html" class="mission__btn">Подробнее</a>
-                </div>
-                <div class="mission-list__element mission">
-                    <img class="mission__img" src="img/ISS-Expedition-29.png" alt="">
-                    <div class="mission__info">
-                        <h2>ISS Expedition 29</h2>
-                        <p>Старт: <span>23 Мая 2011</span></p>
-                        <p>Компания: <a href="/companys/roscosmos.html">Росскосмос</a></p>
-                        <p>Ракета-носитель: <a href="/rockets/proton.html">Протон-М</a></p>
-                        <div class="mission__payload-links">
-                            <a href="#">Союз ТМА</a>
-                            <a href="#">Союз ТМА</a>
-                        </div>
-                        <p class="mission__status mission__status mission__status--successful">успешно</p>
-                    </div>
-                    <a href="missions/ISS-Expedition-29.html" class="mission__btn">Подробнее</a>
-                </div> 
-            </div>
-            <div class="mission-list__row">
-                <div class="mission-list__element mission">
-                    <img class="mission__img" src="img/ISS-Expedition-29.png" alt="">
-                    <div class="mission__info">
-                        <h2>ISS Expedition 29</h2>
-                        <p>Старт: <span>23 Мая 2011</span></p>
-                        <p>Компания: <a href="/companys/roscosmos.html">Росскосмос</a></p>
-                        <p>Ракета-носитель: <a href="/rockets/proton.html">Протон-М</a></p>
-                        <div class="mission__payload-links">
-                            <a href="#">Союз ТМА</a>
-                            <a href="#">Союз ТМА</a>
-                        </div>
-                        <p class="mission__status mission__status mission__status--successful">успешно</p>
-                    </div>
-                    <a href="missions/ISS-Expedition-29.html" class="mission__btn">Подробнее</a>
-                </div>
-                <div class="mission-list__element mission">
-                    <img class="mission__img" src="img/ISS-Expedition-29.png" alt="">
-                    <div class="mission__info">
-                        <h2>ISS Expedition 29</h2>
-                        <p>Старт: <span>23 Мая 2011</span></p>
-                        <p>Компания: <a href="/companys/roscosmos.html">Росскосмос</a></p>
-                        <p>Ракета-носитель: <a href="/rockets/proton.html">Протон-М</a></p>
-                        <div class="mission__payload-links">
-                            <a href="#">Союз ТМА</a>
-                            <a href="#">Союз ТМА</a>
-                        </div>
-                        <p class="mission__status mission__status mission__status--successful">успешно</p>
-                    </div>
-                    <a href="missions/ISS-Expedition-29.html" class="mission__btn">Подробнее</a>
-                </div> 
-            </div>
-            <div class="mission-list__row">
-                <div class="mission-list__element mission">
-                    <img class="mission__img" src="img/ISS-Expedition-29.png" alt="">
-                    <div class="mission__info">
-                        <h2>ISS Expedition 29</h2>
-                        <p>Старт: <span>23 Мая 2011</span></p>
-                        <p>Компания: <a href="/companys/roscosmos.html">Росскосмос</a></p>
-                        <p>Ракета-носитель: <a href="/rockets/proton.html">Протон-М</a></p>
-                        <div class="mission__payload-links">
-                            <a href="#">Союз ТМА</a>
-                            <a href="#">Союз ТМА</a>
-                        </div>
-                        <p class="mission__status mission__status mission__status--successful">успешно</p>
-                    </div>
-                    <a href="missions/ISS-Expedition-29.html" class="mission__btn">Подробнее</a>
-                </div>
-                <div class="mission-list__element mission">
-                    <img class="mission__img" src="img/ISS-Expedition-29.png" alt="">
-                    <div class="mission__info">
-                        <h2>ISS Expedition 29</h2>
-                        <p>Старт: <span>23 Мая 2011</span></p>
-                        <p>Компания: <a href="/companys/roscosmos.html">Росскосмос</a></p>
-                        <p>Ракета-носитель: <a href="/rockets/proton.html">Протон-М</a></p>
-                        <div class="mission__payload-links">
-                            <a href="#">Союз ТМА</a>
-                            <a href="#">Союз ТМА</a>
-                        </div>
-                        <p class="mission__status mission__status mission__status--successful">успешно</p>
-                    </div>
-                    <a href="missions/ISS-Expedition-29.html" class="mission__btn">Подробнее</a>
-                </div> 
-            </div>
-            <div class="mission-list__row">
-                <div class="mission-list__element mission">
-                    <img class="mission__img" src="img/ISS-Expedition-29.png" alt="">
-                    <div class="mission__info">
-                        <h2>ISS Expedition 29</h2>
-                        <p>Старт: <span>23 Мая 2011</span></p>
-                        <p>Компания: <a href="/companys/roscosmos.html">Росскосмос</a></p>
-                        <p>Ракета-носитель: <a href="/rockets/proton.html">Протон-М</a></p>
-                        <div class="mission__payload-links">
-                            <a href="#">Союз ТМА</a>
-                            <a href="#">Союз ТМА</a>
-                        </div>
-                        <p class="mission__status mission__status mission__status--successful">успешно</p>
-                    </div>
-                    <a href="missions/ISS-Expedition-29.html" class="mission__btn">Подробнее</a>
-                </div>
-                <div class="mission-list__element mission">
-                    <img class="mission__img" src="img/ISS-Expedition-29.png" alt="">
-                    <div class="mission__info">
-                        <h2>ISS Expedition 29</h2>
-                        <p>Старт: <span>23 Мая 2011</span></p>
-                        <p>Компания: <a href="/companys/roscosmos.html">Росскосмос</a></p>
-                        <p>Ракета-носитель: <a href="/rockets/proton.html">Протон-М</a></p>
-                        <div class="mission__payload-links">
-                            <a href="#">Союз ТМА</a>
-                            <a href="#">Союз ТМА</a>
-                        </div>
-                        <p class="mission__status mission__status mission__status--successful">успешно</p>
-                    </div>
-                    <a href="missions/ISS-Expedition-29.html" class="mission__btn">Подробнее</a>
-                </div> 
+            <div class="misison-table__wrapper">
+            <table class="mission-table">
+                <thead>
+                    <tr>
+                        <th>Дата запуска</th>
+                        <th>Название миссии</th>
+                        <th>Компания</th>
+                        <th>Ракета носитель</th>
+                        <th>Статус</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php
+                    function ConnectionToDB(){
+                        $mysqli = new mysqli('localhost', 'root', '', 'spacenixdb');
+                        $mysqli -> set_charset('utf8');
+                    
+                        if (mysqli_connect_errno()){
+                            printf("Соединение не установлено," , mysqli_connect_error());
+                            exit();
+                        }
+                        return $mysqli;
+                    }
+                    $mysqli = ConnectionToDB();
+                    $query = $mysqli -> query('SELECT date_format(launch.beginning, "%d %b %Y") as date, launch.name, company.name as company_name, rocket.name as rocket_name, launch.status
+                    FROM spacenixdb.launch, spacenixdb.company, spacenixdb.rocket
+                    WHERE company.id = company_id and rocket.id = rocket_id
+                    ORDER BY launch.beginning DESC
+                    LIMIT 10;');
+                    while ($row = mysqli_fetch_assoc($query)){
+                        $date = $row['date'];
+                        $name = $row['name'];
+                        $company = $row['company_name'];
+                        $rocket = $row['rocket_name'];
+                        $status = $row['status'];
+                        if ($status == 'Успех'){
+                            echo '<tr class="mission-table__row">
+                            <td><a href="">'.$date.'</a></td>
+                            <td><a href=""><div class="mission-element__img"><img src="img/ISS-Expedition-29.png" alt="" width="50px">'.$name.'</div></a></td>
+                            <td><a href="">'.$company.'</a></td>
+                            <td><a href="">'.$rocket.'</a></td>
+                            <td class="mission__status--successful"><a href="" class="mission-status">'.$status.'</a></td>
+                        </tr>';
+                        }else{
+                            echo '<tr class="mission-table__row">
+                            <td><a href="">'.$date.'</a></td>
+                            <td><a href=""><div class="mission-element__img"><img src="img/ISS-Expedition-29.png" alt="" width="50px">'.$name.'</div></a></td>
+                            <td><a href="">'.$company.'</a></td>
+                            <td><a href="">'.$rocket.'</a></td>
+                            <td class="mission__status--failure"><a href="" class="mission-status">'.$status.'</a></td>
+                        </tr>';
+                        }
+                        
+                    }
+                    ?>
+                </tbody>
+            </table>
             </div>
             <div class="mission-list__page-links page-links">
                 <button class="page-links__btn page-links__btn--inactive page-links__btn--prev">Назад</button>

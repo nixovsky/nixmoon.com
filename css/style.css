@@ -557,50 +557,56 @@ select{
     justify-content: center;
     flex-direction: column;
 }
-.mission-list__row{
+.mission-table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.misison-table__wrapper{
+    border-left: 3px solid var(--link-color);
+    padding: 0 20px;
+}
+.mission-table thead tr,
+.mission-table tbody tr{
+    border-bottom: 1px solid rgb(60, 60, 60);
+}
+.mission-table th:last-child,
+.mission-table td:last-child{
+    border-right: 0;
+}
+.mission-table th{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.mission-table th, 
+.mission-table td{
+    border-right: 4px solid rgb(60, 60, 60);
+    padding: 15px;
+}
+.mission-element__img{
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
 }
-.mission{
-    display: flex;
-    align-items:center;
-    justify-content: center;
+.mission-element__img img{
+    margin-right: 5px;
 }
-.mission__img{
-    width: 30%;
-    margin-right: 10px;
-}
-.mission__info h2{
-    margin-bottom: 10px;
-}
-.mission__info a{
-    cursor: pointer;
-}
-.mission__info p{
-    padding-bottom: 2px;
-}
-.mission__payload-links a{
+.mission-table td a{
+    font-size: 15px;
     color: white;
-    transition: 0.15s;
+    text-decoration: none;
 }
-.mission__payload-links a:hover{
-    color: var(--hover-link-color);
-}
+
+
 .mission__status{
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 .mission__status--successful{
-    color: var(--successful);
+    border-left: 4.1px solid var(--successful);
 }
 .mission__status--failure{
-    color: var(--failure);
+    border-left: 4.1px solid var(--failure);
 }
-.mission__btn{
-    transform: rotate(-90deg);
-}
+
 
 .mission-list__page-links{
     margin: 40px 0 0 0;
